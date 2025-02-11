@@ -1,0 +1,10 @@
+{
+    "name": "Search NeoDB",
+    "icon": "Icon.png",
+    "actions": [{
+      "title": "🔎 NeoDB",
+      "icon": "magnifyingglass",
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}"
+    }]
+  }
