@@ -1,80 +1,86 @@
 {
-    "name": "Search NeoDB",
-    "icon": "Icon.png",
-    "options": [
-    {
-      "identifier": "enableNeodb",
-      "label": "🧩 NeoDB",
-      "type": "boolean",
-      "defaultValue": true
-    },
-    {
-      "identifier": "enableBook",
-      "label": "Book",
-      "type": "boolean",
-      "defaultValue": true
-    },
-    {
-      "identifier": "enableMovie",
-      "label": "Movie",
-      "type": "boolean",
-      "defaultValue": true
-    },
-    {
-      "identifier": "enablePodcast",
-      "label": "Podcast",
-      "type": "boolean",
-      "defaultValue": true
-    },
-    {
-      "identifier": "enableMusic",
-      "label": "Music",
-      "type": "boolean",
-      "defaultValue": true
-    },
-    {
-      "identifier": "enableGame",
-      "label": "Game",
-      "type": "boolean",
-      "defaultValue": true
-    }
-  ],
-    "actions": [
-      {
-      "title": "🧩 NeoDB",
-      "icon": "magnifyingglass",
-      "type": "url",
-      "url": "https://neodb.social/search?q={popclip text}"
-      },
-      {
-        "title": "Book",
-        "icon": "magnifyingglass",
-        "type": "url",
-        "url": "https://neodb.social/search?q={popclip text}&c=book"
-      },
-      {
-        "title": "Movie",
-        "icon": "magnifyingglass",
-        "type": "url",
-        "url": "https://neodb.social/search?q={popclip text}&c=movietv"
-      },
-      {
-        "title": "Podcast",
-        "icon": "magnifyingglass",
-        "type": "url",
-        "url": "https://neodb.social/search?q={popclip text}&c=podcast"
-      },
-      {
-        "title": "Music",
-        "icon": "magnifyingglass",
-        "type": "url",
-        "url": "https://neodb.social/search?q={popclip text}&c=music"
-      },
-      {
-        "title": "Game",
-        "icon": "magnifyingglass",
-        "type": "url",
-        "url": "https://neodb.social/search?q={popclip text}&c=game"
-      }
-  ]
+  "name": "Search NeoDB",
+  "icon": "Icon.png",
+  "options": [
+  {
+    "identifier": "enableNeoDB",
+    "label": "🧩",
+    "type": "boolean",
+    "defaultValue": true
+  },
+  {
+    "identifier": "enableBook",
+    "label": "📖",
+    "type": "boolean",
+    "defaultValue": true
+  },
+  {
+    "identifier": "enableMovie",
+    "label": "🎬",
+    "type": "boolean",
+    "defaultValue": true
+  },
+  {
+    "identifier": "enablePodcast",
+    "label": "🎙️",
+    "type": "boolean",
+    "defaultValue": true
+  },
+  {
+    "identifier": "enableMusic",
+    "label": "🎵",
+    "type": "boolean",
+    "defaultValue": true
+  },
+  {
+    "identifier": "enableGame",
+    "label": "🎮",
+    "type": "boolean",
+    "defaultValue": true
   }
+],
+  "actions": [
+    {
+    "title": "🧩",
+    "icon": "magnifyingglass",
+    "type": "url",
+    "requirements": ["option-enableNeoDB=1"],
+    "url": "https://neodb.social/search?q={popclip text}"
+    },
+    {
+      "title": "📖",
+      "icon": "magnifyingglass",
+      "requirements": ["option-enableBook=1"],
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}&c=book"
+    },
+    {
+      "title": "🎬",
+      "icon": "magnifyingglass",
+      "requirements": ["option-enableMovie=1"],
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}&c=movietv"
+    },
+    {
+      "title": "🎙️",
+      "icon": "magnifyingglass",
+      "requirements": ["option-enablePodcast=1"],
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}&c=podcast"
+    },
+    {
+      "title": "🎵",
+      "icon": "magnifyingglass",
+      "requirements": ["option-enableMusic=1"],
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}&c=music"
+    },
+    {
+      "title": "🎮",
+      "icon": "magnifyingglass",
+      "requirements": ["option-enableGame=1"],
+      "type": "url",
+      "url": "https://neodb.social/search?q={popclip text}&c=game"
+    }
+]
+}
