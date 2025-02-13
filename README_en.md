@@ -14,7 +14,7 @@ This is a simple PopClip extension that allows you to directly search NeoDB on y
 
 1. Download the [SearchNeodbExtension.popclipextz](https://github.com/Wooden-Robot/Search-NeoDB-PopClip/releases/download/v0.02/SearchNeodbExtension.popclipextz) file.  
 2. Double-click the file to install the extension into PopClip.  
-3. After installation, you can select text in any application and click the "NeoDB" button in the PopClip menu to perform a search.  
+3. After installation, you can select text in any application and click the button in the PopClip menu to perform a search.  
 
 ## Usage  
 

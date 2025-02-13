@@ -14,7 +14,7 @@
 
 1. 下载 [SearchNeodbExtension.popclipextz](https://github.com/Wooden-Robot/Search-NeoDB-PopClip/releases/download/v0.02/SearchNeodbExtension.popclipextz) 文件。
 2. 双击文件，安装该插件到 PopClip。
-3. 安装完成后，您可以在任何应用中选中文本，点击 PopClip 菜单中的 "NeoDB" 按钮进行搜索。
+3. 安装完成后，您可以在任何应用中选中文本，点击 PopClip 菜单中的按钮进行搜索。
 
 ## 使用方法
 
